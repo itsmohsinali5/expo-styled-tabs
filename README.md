@@ -8,7 +8,7 @@ A highly customizable and feature-rich tab navigation component for React Native
 
 ## 🚀 Live Demo
 
-<!-- **[Try it on Expo Snack](https://snack.expo.dev/@itsmohsinali5/expo-styled-tabs-demo)** - Interactive demo with all customization options -->
+[![Watch the demo](https://img.youtube.com/vi/vJP888ZDQMo/0.jpg)](https://youtube.com/shorts/vJP888ZDQMo?feature=share)
 
 <!-- **[View Demo Source Code](https://github.com/itsmohsinali5/expo-styled-tabs/blob/main/App.js)** - Complete demo implementation -->
 
