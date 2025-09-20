@@ -1,18 +1,80 @@
 {
   "name": "expo-styled-tabs",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A highly customizable and feature-rich tab navigation component for React Native (Expo) applications with multiple variants, themes, and comprehensive customization options.",
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "demo": "expo start --tunnel",
+    "build": "expo export",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/material-top-tabs": "^6.0.6",
+    "@react-navigation/native": "^6.0.6",
     "expo": "~54.0.9",
     "expo-status-bar": "~3.0.8",
-    "react": "19.1.0",
-    "react-native": "0.81.4"
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "react-native-pager-view": "6.3.0",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1"
   },
-  "private": true
+  "peerDependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/material-top-tabs": "^6.0.6",
+    "@react-navigation/native": "^6.0.6",
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "react-native-safe-area-context": ">=4.0.0",
+    "react-native-screens": ">=3.0.0"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "tabs",
+    "navigation",
+    "styled",
+    "customizable",
+    "glassmorphism",
+    "rounded-pills",
+    "themes",
+    "bottom-tabs",
+    "top-tabs",
+    "tab-bar",
+    "ui-component",
+    "mobile",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "Mohsin Ali",
+    "email": "itsmohsinali5@gmail.com",
+    "url": "https://github.com/itsmohsinali5"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/itsmohsinali5/expo-styled-tabs#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsmohsinali5/expo-styled-tabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itsmohsinali5/expo-styled-tabs/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "private": false
 }
