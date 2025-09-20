@@ -4,7 +4,7 @@ import { StyleSheet, View, ScrollView, Text, TouchableOpacity, Alert } from 'rea
 import { SafeAreaView } from 'react-native-safe-area-context';
 import CustomTabs from './src/components/CustomTabs';
 import { HomeScreen, SearchScreen, ProfileScreen, SettingsScreen } from './src/components/ExampleScreens';
-
+// import CustomTabs from 'expo-styled-tabs';
 export default function App() {
   const [currentVariant, setCurrentVariant] = useState('basic');
   const [currentPosition, setCurrentPosition] = useState('bottom');
