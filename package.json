@@ -1,6 +1,6 @@
 {
   "name": "expo-styled-tabs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A highly customizable and feature-rich tab navigation component for React Native (Expo) applications with multiple variants, themes, and comprehensive customization options.",
   "main": "src/index.js",
   "files": [
