@@ -386,7 +386,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Support
 
-- 📧 Email: itsmohsinali5@example.com
+- 📧 Email: itsmohsinali5@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/itsmohsinali5/expo-styled-tabs/issues)
 <!-- - 💬 Discussions: [GitHub Discussions](https://github.com/itsmohsinali5/expo-styled-tabs/discussions) -->
 
